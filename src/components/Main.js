@@ -1,10 +1,15 @@
-import Selfintro from "./Selfintro";
+import Education from "./Education";
+import Projects from "./Projects";
+import SelfIntroduction from "./Selfintro";
 
 function Main() {
-    return <>
-        <h1>This is main part</h1>
-        <Selfintro />
-
-    </>
+    return (
+        <>
+            <SelfIntroduction />
+            <Projects />
+            <Education />
+        </>
+    );
 }
+
 export default Main;

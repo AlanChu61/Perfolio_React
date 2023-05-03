@@ -1,7 +1,11 @@
+import Project from "./Project";
 function Projects() {
     return (
         <div className="#projects">
-            <h1>Project</h1>
+            <Project />
+            <Project />
+            <Project />
+            <Project />
         </div>
     )
 }
