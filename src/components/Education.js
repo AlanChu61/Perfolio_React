@@ -1,6 +1,6 @@
 function Education() {
     return (
-        <div>
+        <div className="#education">
             <h1>Education</h1>
         </div>
     )
