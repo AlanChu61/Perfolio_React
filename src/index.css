@@ -38,3 +38,9 @@ header{
 .selfIntro{
   font-size: 24px;
 }
+
+img{
+  width: 80%;
+  border-radius: 5px;
+  margin: 10px auto;
+}
