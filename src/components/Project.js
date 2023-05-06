@@ -1,7 +1,7 @@
-function Project() {
+function Project(props) {
     return (
         <div>
-            <h1>This is a project</h1>
+            123
         </div>
     )
 }
