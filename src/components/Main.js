@@ -1,14 +1,14 @@
-import Education from "./Education";
-import Projects from "./Projects";
-import SelfIntroduction from "./Selfintro";
+import Education from "./main/Education";
+import Projects from "./main/Projects";
+import SelfIntro from "./main/Selfintro";
 
 function Main() {
     return (
-        <>
-            <SelfIntroduction />
+        <main className="main">
+            <SelfIntro />
             <Projects />
             <Education />
-        </>
+        </main>
     );
 }
 

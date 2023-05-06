@@ -1,15 +1,20 @@
+import Nav from './Nav';
+import TextSlider from './textSlider/TextSlider';
 function Header() {
-    return <nav>
-        <div class="nav-wrapper">
-            <a href="#!" class="brand-logo center">Home</a>
-            <ul class="left hide-on-med-and-down">
-                <li><a href="sass.html">Self Introduction</a></li>
-                <li><a href="sass.html">Projects</a></li>
-                <li><a href="sass.html">Skills</a></li>
-                <li><a href="sass.html">Education</a></li>
-            </ul>
-        </div>
-    </nav>
-
+    const textList = [
+        "Software Engineer",
+        "Front End Developer",
+        "Lifelong Learner",
+        "Pokemon Enthusiast",
+        "Explorer of Life's Possibilities"
+    ];
+    const interval = 1000;
+    return (
+        <header className='Header'>
+            <Nav />
+            <TextSlider textList={textList} interval={interval} />
+        </header>
+    );
 }
+
 export default Header;
