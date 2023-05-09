@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
-
+import { SocialIcon } from 'react-social-icons';
 function Nav() {
     const projectRef = useRef(null);
     const [isNavSticky, setIsNavSticky] = useState(false);
@@ -44,11 +44,10 @@ function Nav() {
                         <a href="#projects" onClick={handleNavClick}>Projects</a>
                     </li>
                     <li>
-                        <a href="#skills" onClick={handleNavClick}>Skills</a>
-                    </li>
-                    <li>
                         <a href="#education" onClick={handleNavClick}>Education</a>
                     </li>
+                    <a className="grey-text text-lighten-4 right" href="#!"><SocialIcon url="https://www.linkedin.com/in/alan-hwader-chu/" />   <SocialIcon url="https://github.com/AlanChu61" /></a>
+
                 </ul>
             </div>
             <div ref={projectRef}></div>

@@ -1,7 +1,9 @@
+import React from "react";
+import styles from "./education.module.css";
 function Education() {
     return (
-        <>
-            <div className="education row" id="education">
+        <div className={`row card ${styles.font}`} id="education">
+            <div className="education" >
                 <div className="col s12">
                     <h2>Education</h2>
                     <div className="column-2a">
@@ -51,7 +53,7 @@ function Education() {
                     </li>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 export default Education;
