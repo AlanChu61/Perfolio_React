@@ -10,7 +10,7 @@ function Project(props) {
 
     return (
         <div className={`col s6 card ${styles.container}`}>
-            <a href={props.project.deployed} target="_blank">
+            <a href={props.project.deployed} target="_blank" rel="noopener noreferrer">
                 <img className={`card-image waves-effect waves-block waves-light`}
                     src={props.project.screenshot}
                     alt={props.project.title}
