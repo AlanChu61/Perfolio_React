@@ -16,10 +16,10 @@ function Project(props) {
                     alt={props.project.title}
                 /></a>
             <div className='card-title'>{props.project.title}</div>
-            <div class="card-content">
-                <p>Technologies used: {props.project.technologies}</p>
-                <p>{showDescription && <p>Description: {props.project.description}</p>}
-                </p>
+            <div className="card-content">
+                <div>Technologies used: {props.project.technologies}</div>
+                <div>{showDescription && <p>Description: {props.project.description}</p>}
+                </div>
                 <div className="btn-container">
                     <button onClick={handleDescriptionButtonClick}>
                         {showDescription ? "Hide Description" : "Show More"}

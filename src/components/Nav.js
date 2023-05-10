@@ -35,7 +35,7 @@ function Nav() {
     return (
         <nav className={`nav light-green ${isNavSticky ? 'sticky' : ''}`}>
             <div className="nav-wrapper">
-                <a href="/" className="brand-logo">Alan Hwader Chu</a>
+                <a href="/">Alan Hwader Chu</a>
                 <ul className="right hide-on-med-and-down">
                     <li>
                         <a href="#selfIntro" onClick={handleNavClick}>Self Introduction</a>
@@ -46,7 +46,8 @@ function Nav() {
                     <li>
                         <a href="#education" onClick={handleNavClick}>Education</a>
                     </li>
-                    <a className="grey-text text-lighten-4 right" href="#!"><SocialIcon url="https://www.linkedin.com/in/alan-hwader-chu/" />   <SocialIcon url="https://github.com/AlanChu61" /></a>
+                    <SocialIcon url="https://www.linkedin.com/in/alan-hwader-chu/" />
+                    <SocialIcon url="https://github.com/AlanChu61" />
 
                 </ul>
             </div>

@@ -1,3 +1,8 @@
+.selfIntro{
+  display: flex;
+  flex-direction: column;
+  height: 28rem;
+}
 .button {
     display: flex;
     align-items: center;
