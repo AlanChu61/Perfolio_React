@@ -33,9 +33,9 @@ function Nav() {
     }, []);
 
     return (
-        <nav className={`nav ${isNavSticky ? 'sticky' : ''}`}>
+        <nav className={`nav light-green ${isNavSticky ? 'sticky' : ''}`}>
             <div className="nav-wrapper">
-                <a href="#!" className="brand-logo">Alan Hwader Chu</a>
+                <a href="/" className="brand-logo">Alan Hwader Chu</a>
                 <ul className="right hide-on-med-and-down">
                     <li>
                         <a href="#selfIntro" onClick={handleNavClick}>Self Introduction</a>

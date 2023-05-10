@@ -56,10 +56,13 @@ img{
 
 @media (max-width: 600px) {
   .selfIntro {
-      font-size: 14px;
+      font-size: 16px
   }
   .btn-container {
       margin-bottom: 10px;
+  }
+  .education{
+    font-size: 16px
   }
 }
 
@@ -79,4 +82,8 @@ img{
   .btn-container {
       margin-bottom: 30px;
   }
+  
+}
+.footer{
+  text-align: center;
 }

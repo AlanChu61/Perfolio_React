@@ -10,7 +10,8 @@ function TextSlider(props) {
         return () => clearInterval(intervalId);
     }, [index, props]);
 
-    return <div>Hello This is Alan Chu. I am a {props.textList[index]}</div>;
+    return <div>Hello This is Alan Chu. <br /><br />I am a {props.textList[index]}</div>;
+
 }
 
 export default TextSlider;

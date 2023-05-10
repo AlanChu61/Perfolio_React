@@ -2,10 +2,8 @@
 
 function Footer() {
     return (
-        <footer className="page-footer">
-
-            Copyright &copy;{new Date().getFullYear()} Alan Hwader Chu. All rights reserved.
-
+        <footer className="page-footer light-green">
+            Copyright&copy; {new Date().getFullYear()} Alan Hwader Chu. All rights reserved.
         </footer>
     )
 }
