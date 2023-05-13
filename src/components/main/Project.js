@@ -9,7 +9,7 @@ function Project(props) {
     };
 
     return (
-        <div className={`col s6 card ${styles.container}`}>
+        <div className={`col-12 card ${styles.container}`}>
             <a href={props.project.deployed} target="_blank" rel="noopener noreferrer">
                 <img className={`card-image waves-effect waves-block waves-light`}
                     src={props.project.screenshot}
@@ -25,7 +25,7 @@ function Project(props) {
                         {showDescription ? "Hide Description" : "Show More"}
                     </button>
                     <button>
-                        <a href={props.project.github} target="_blank">Github
+                        <a href={props.project.github} target="_blank" rel="noreferrer">Github
                         </a>
                     </button>
                 </div>

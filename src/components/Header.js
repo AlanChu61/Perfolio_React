@@ -10,7 +10,7 @@ function Header() {
     ];
     const interval = 1000;
     return (
-        <header className='Header'>
+        <header>
             <Nav />
             <TextSlider textList={textList} interval={interval} />
         </header>

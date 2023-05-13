@@ -2,7 +2,7 @@
 
 function Footer() {
     return (
-        <footer className="page-footer light-green">
+        <footer className="page-footer bg-success-subtle">
             Copyright&copy; {new Date().getFullYear()} Alan Hwader Chu. All rights reserved.
         </footer>
     )

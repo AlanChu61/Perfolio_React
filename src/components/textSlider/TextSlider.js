@@ -6,11 +6,18 @@ function TextSlider(props) {
     useEffect(() => {
         const intervalId = setInterval(() => {
             setIndex((index + 1) % props.textList.length);
-        }, props.interval || 2000);
+        }, props.interval || 1500);
         return () => clearInterval(intervalId);
     }, [index, props]);
 
-    return <div>Hello This is Alan Chu. <br /><br />I am a {props.textList[index]}</div>;
+    return <div className="textSlider">
+
+        Hello!
+        <br />
+
+        This is Alan Chu.
+        <br />
+        I am a {props.textList[index]}</div>;
 
 }
 

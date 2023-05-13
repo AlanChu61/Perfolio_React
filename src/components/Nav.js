@@ -1,7 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
-import { SocialIcon } from 'react-social-icons';
+
 function Nav() {
-    const projectRef = useRef(null);
     const [isNavSticky, setIsNavSticky] = useState(false);
 
     const handleNavClick = (e) => {
@@ -15,6 +14,14 @@ function Nav() {
                 behavior: 'smooth'
             });
         }
+    };
+
+    const handleBrandClick = (e) => {
+        e.preventDefault();
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
     };
 
     useEffect(() => {
@@ -33,25 +40,24 @@ function Nav() {
     }, []);
 
     return (
-        <nav className={`nav light-green ${isNavSticky ? 'sticky' : ''}`}>
-            <div className="nav-wrapper">
-                <a href="/">Alan Hwader Chu</a>
-                <ul className="right hide-on-med-and-down">
-                    <li>
-                        <a href="#selfIntro" onClick={handleNavClick}>Self Introduction</a>
-                    </li>
-                    <li>
-                        <a href="#projects" onClick={handleNavClick}>Projects</a>
-                    </li>
-                    <li>
-                        <a href="#education" onClick={handleNavClick}>Education</a>
-                    </li>
-                    <SocialIcon url="https://www.linkedin.com/in/alan-hwader-chu/" />
-                    <SocialIcon url="https://github.com/AlanChu61" />
-
-                </ul>
-            </div>
-            <div ref={projectRef}></div>
+        <nav className={`nav bg-success-subtle ${isNavSticky ? 'sticky' : ''}`}>
+            <a className="nav-brand" href="/" onClick={handleBrandClick}>
+                AHC
+            </a>
+            <ul className="nav justify-content-end">
+                <li className="nav-item">
+                    <a className="nav-link" href="#about" onClick={handleNavClick}>About Me</a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="#projects" onClick={handleNavClick}>Projects</a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="#education" onClick={handleNavClick}>Education</a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="#contact" onClick={handleNavClick}>Contact Me</a>
+                </li>
+            </ul>
         </nav>
     );
 }
