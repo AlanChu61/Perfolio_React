@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
-
+import { SocialIcon } from 'react-social-icons';
 function Nav() {
     const [isNavSticky, setIsNavSticky] = useState(false);
 
@@ -56,7 +56,8 @@ function Nav() {
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#contact" onClick={handleNavClick}>Contact Me</a>
-                </li>
+                </li><SocialIcon url="https://www.linkedin.com/in/alan-hwader-chu/" />
+                <SocialIcon url="https://github.com/AlanChu61" />
             </ul>
         </nav>
     );
