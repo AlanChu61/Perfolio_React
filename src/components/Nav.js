@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { SocialIcon } from 'react-social-icons';
 function Nav() {
     const [isNavSticky, setIsNavSticky] = useState(false);
