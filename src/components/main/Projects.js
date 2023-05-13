@@ -1,5 +1,7 @@
+import React from "react";
 import Project from "./Project";
-import projectDetails from "./projectDetails.js";
+import projectDetails from "./projectDetails";
+
 function Projects() {
     return (
         <div className="projects row card" id="projects">
@@ -8,6 +10,7 @@ function Projects() {
                 <Project project={project} key={project.id} />
             ))}
         </div>
-    )
+    );
 }
+
 export default Projects;
