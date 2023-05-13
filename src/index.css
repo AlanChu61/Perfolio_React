@@ -65,6 +65,10 @@ img{
 
 
 @media (max-width: 600px) {
+li.nav-item{
+    font-size:100px;
+    display: none;
+  }
   .selfIntro {
       font-size: 16px
   }
