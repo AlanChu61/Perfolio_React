@@ -1,7 +1,7 @@
 function ContactForm() {
     return (
         <div className="row"><h2 id="contact">Contact Me</h2>
-            <form name="contact" method="post">
+            <form name="contact" netlify method="post">
                 <input type="hidden" name="form-name" value="contact" />
                 <p>
                     <label htmlFor="name">Name</label> <br />
