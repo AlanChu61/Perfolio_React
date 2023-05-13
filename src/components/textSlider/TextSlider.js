@@ -11,10 +11,7 @@ function TextSlider(props) {
     }, [index, props]);
 
     return <div className="textSlider">
-
         Hello!
-        <br />
-
         This is Alan Chu.
         <br />
         I am a {props.textList[index]}</div>;
