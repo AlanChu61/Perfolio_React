@@ -41,9 +41,11 @@ function Nav() {
 
     return (
         <nav className={`nav bg-success-subtle ${isNavSticky ? 'sticky' : ''}`}>
-            <a className="nav-brand" href="/" onClick={handleBrandClick}>
-                AHC
+            <a className="navbar-brand" href="/" onClick={handleBrandClick}>
+                <img src="/img/logo.png" alt='logo' width="50px" height="50px" />
             </a>
+
+
             <ul className="nav justify-content-end">
                 <li className="nav-item">
                     <a className="nav-link" href="#about" onClick={handleNavClick}>About Me</a>
