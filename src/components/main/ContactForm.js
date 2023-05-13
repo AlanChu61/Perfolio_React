@@ -1,7 +1,10 @@
+import React from "react";
+
 function ContactForm() {
     return (
-        <div className="row"><h2 id="contact">Contact Me</h2>
-            <form name="contact" netlify method="post">
+        <div className="row">
+            <h2 id="contact">Contact Me</h2>
+            <form name="contact" netlify="true" method="post">
                 <input type="hidden" name="form-name" value="contact" />
                 <p>
                     <label htmlFor="name">Name</label> <br />
@@ -22,4 +25,5 @@ function ContactForm() {
         </div>
     );
 }
+
 export default ContactForm;
