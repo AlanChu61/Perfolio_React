@@ -42,11 +42,11 @@ function TechSkills() {
                             width={chartWidth}
                             height={600}
                             data={data}
-                            margin={{ top: 20, right: 30, left: 120, bottom: 5 }}  // 增加左側邊距
+                            margin={{ top: 20, right: 30, left: 120, bottom: 5 }}
                         >
                             <CartesianGrid strokeDasharray="3 3" />
                             <XAxis type="number" label={{ value: 'Years', position: 'insideBottomRight', offset: -10 }} />
-                            <YAxis type="category" dataKey="name" width={120} />  {/* 調整Y軸的寬度 */}
+                            <YAxis type="category" dataKey="name" width={120} />
                             <Tooltip />
                             <Legend />
                             <Bar dataKey="experience" fill="#82ca9d" name="Experience (Years)" />
