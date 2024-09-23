@@ -1,15 +1,19 @@
-import Education from "./main/Education";
-import Projects from "./main/Projects";
-import SelfIntro from "./main/Selfintro";
-import ContactForm from "./main/ContactForm";
+import { lazy, Suspense } from 'react';
+
+const Education = lazy(() => import('./main/Education'));
+const Projects = lazy(() => import('./main/Projects'));
+const SelfIntro = lazy(() => import('./main/Selfintro'));
+const ContactForm = lazy(() => import('./main/ContactForm'));
 
 function Main() {
     return (
         <main className="container-fluid">
-            <SelfIntro />
-            <Projects />
-            <Education />
-            <ContactForm />
+            <Suspense fallback={<div>Loading...</div>}>
+                <SelfIntro />
+                <Projects />
+                <Education />
+                <ContactForm />
+            </Suspense>
         </main>
     );
 }
