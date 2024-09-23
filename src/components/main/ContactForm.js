@@ -1,3 +1,4 @@
+// ContactForm.js
 import React from "react";
 
 function ContactForm() {
@@ -20,7 +21,7 @@ function ContactForm() {
                         <textarea id="message" name="message" required></textarea>
                     </p>
                     <p>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" className="btn btn-primary">Submit</button>  {/* 修正為 className */}
                     </p>
                 </form>
             </div>
