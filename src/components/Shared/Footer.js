@@ -1,5 +1,3 @@
-
-
 function Footer() {
     return (
         <footer className="page-footer bg-success-subtle">
