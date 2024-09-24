@@ -8,11 +8,11 @@ import { Suspense } from 'react';
 // const SelfIntro = lazy(() => import('./Main/Selfintro'));
 // const ContactForm = lazy(() => import('./ContactForm'));
 
-import EducationExperience from './Main/EducationExperience/EducationExperience';
-import WorkExperience from './Main/WorkExperience/WorkExperience';
-import TechSkills from './Main/WorkExperience/TechSkills';
-import Projects from './Main/Projects';
-import SelfIntro from './Main/Selfintro';
+import EducationExperience from './main/EducationExperience/EducationExperience';
+import WorkExperience from './main/WorkExperience/WorkExperience';
+import TechSkills from './main/WorkExperience/TechSkills';
+import Projects from './main/Projects';
+import SelfIntro from './main/Selfintro';
 import ContactForm from './ContactForm';
 
 function Main() {
