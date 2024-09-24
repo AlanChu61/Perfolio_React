@@ -17,7 +17,7 @@ function WorkExperience() {
             </article>
 
             <article className="mb-4">
-                <h3>Co-founder and Technical Lead</h3>
+                <h3>Co-founder/Founding Software Engineer</h3>/
                 <h4>Shanghai Genius Academy | Aug. 2020 - Present</h4>
                 <ul>
                     <li>Developed a payroll system using React, FastAPI, and SQLite, automating salary calculations.</li>
