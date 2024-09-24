@@ -1,8 +1,7 @@
-
 import './App.css';
 
-import Main from './components/Main';
 import Footer from './components/shared/Footer';
+import Main from './components/Main';
 import Header from './components/shared/Header';
 
 function App() {

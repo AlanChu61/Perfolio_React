@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { SocialIcon } from 'react-social-icons';
 function Nav() {
