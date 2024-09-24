@@ -6,7 +6,7 @@ const WorkExperience = lazy(() => import('./Main/WorkExperience/WorkExperience')
 const TechSkills = lazy(() => import('./Main/WorkExperience/TechSkills'));
 const Projects = lazy(() => import('./Main/Projects'));
 const SelfIntro = lazy(() => import('./Main/Selfintro'));
-const ContactForm = lazy(() => import('./Main/ContactForm'));
+const ContactForm = lazy(() => import('./ContactForm'));
 
 function Main() {
     return (
