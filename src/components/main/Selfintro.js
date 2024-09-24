@@ -2,7 +2,7 @@ import React from 'react';
 import styles from "./Selfintro.module.css";
 
 function SelfIntro() {
-    const resumePath = '/Resume.pdf'; // 使用 '/Resume.pdf' 作为简历文件路径
+    const resumePath = '/Resume.pdf';
 
     return (
         <div className='row'>

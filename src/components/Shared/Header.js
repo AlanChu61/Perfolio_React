@@ -1,5 +1,5 @@
-import Nav from './Nav';
-import TextSlider from '../Main/TextSlider';
+import Nav from './Nav'
+import TextSlider from '../main/TextSlider'
 function Header() {
     const textList = [
         "Web Developer",
