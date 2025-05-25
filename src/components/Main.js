@@ -5,7 +5,7 @@ const EducationExperience = lazy(() => import('./main/EducationExperience/Educat
 const WorkExperience = lazy(() => import('./main/WorkExperience/WorkExperience'));
 const TechSkills = lazy(() => import('./main/WorkExperience/TechSkills'));
 const Projects = lazy(() => import('./main/Projects'));
-const SelfIntro = lazy(() => import('./main/Selfintro'));
+const AboutMe = lazy(() => import('./main/AboutMe'));
 const ContactForm = lazy(() => import('./main/ContactForm'));
 
 
@@ -13,7 +13,7 @@ function Main() {
     return (
         <main className="container-fluid">
             <Suspense fallback={<div>Loading...</div>}>
-                <SelfIntro />
+                <AboutMe />
                 <WorkExperience />
                 <TechSkills />
                 <Projects />
