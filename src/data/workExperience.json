@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Software Engineer",
+        "company": "Walmart",
+        "duration": "Oct. 2023 - Aug. 2025",
+        "points": [
+            "Designed Python-based ETL pipelines for real-time delivery data, enabling SLA monitoring and anomaly detection.",
+            "Automated KPI reporting using SQL, pandas, and Airflow; saved 5+ hours per week in manual reporting.",
+            "Built a CLI-based Python tool hosted on an internal VM to support driver assignment testing.",
+            "Refactored Airflow DAGs and Pinot-Kafka streaming, reducing job latency from 5 to under 2 minutes.",
+            "Used Grafana and Splunk to monitor real-time metrics and logs, cutting triage time during incidents by 50%.",
+            "Developed Spring Boot APIs for delivery trip cancellation and integrated with Angular frontend for field ops."
+        ]
+    },
+    {
+        "title": "Co-Founder / Founding Software Engineer",
+        "company": "Shanghai Genius Academy",
+        "duration": "Aug. 2020 - Oct. 2023",
+        "points": [
+            "Built a React + FastAPI + SQLite payroll system that automated salary tracking and notifications, reducing HR load by 60%.",
+            "Developed a Node.js + MongoDB teacher portal for managing profiles and communications, boosting admin efficiency.",
+            "Designed a JUnit-tested student/course management system that cut staff workload by 50%.",
+            "Deployed and customized a Moodle instance on AWS Lightsail for scalable online learning."
+        ]
+    },
+    {
+        "title": "Application Development Engineer",
+        "company": "KLA-Tencor",
+        "duration": "Oct. 2021 - June 2022",
+        "points": [
+            "Automated Focus Study analysis using Excel Macros, cutting time by 30% and reducing errors by 20%.",
+            "Performed data analysis and file ops on Unix systems to support customer solutions.",
+            "Created Python scripts for reporting and visualization, speeding up internal communication and delivery.",
+            "Recognized for innovation; fastest to complete Level-1 qualification exam."
+        ]
+    }
+]
