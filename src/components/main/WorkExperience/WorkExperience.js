@@ -7,7 +7,7 @@ function WorkExperience() {
 
             <article className="mb-4">
                 <h3>Software Development Engineer</h3>
-                <h4>Walmart | Oct. 2023 - Present</h4>
+                <h4>Walmart | Oct. 2023 - Aug. 2025</h4>
                 <ul>
                     <li>Developed Python automation scripts, reducing report generation time by 75%.</li>
                     <li>Built and maintained Spring Boot APIs and React-based tools to enhance backend capabilities.</li>
